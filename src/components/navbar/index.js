@@ -2,9 +2,6 @@ import React from "react";
 import './navbar.css'
 import {Link} from "react-router-dom";
 import paaclogo from '../../assets/paaclogo.png'
-// REACT FONT AWESOME IMPORTS
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar(){
     return <div>
@@ -25,7 +22,7 @@ export default function NavBar(){
                 <Link to="/events" className="nav-link">Events</Link>
             </li>
             <li className="nav-item">
-                <Link to="/astrophotgraphy" className="nav-link">Astrophotgraphy</Link>
+                <Link to="/astrophotography" className="nav-link">Astrophotography</Link>
             </li>
             <li className="nav-item">
                 <Link to="/contact" className="nav-link">Contact Us</Link>
