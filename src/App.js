@@ -11,7 +11,6 @@ function App() {
     <>
       <BrowserRouter>
         <ScrollToTop />
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<Hero />} />
           <Route exact path="/events" element={<Events />} />

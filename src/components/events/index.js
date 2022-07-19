@@ -1,10 +1,12 @@
 import React from "react";
 import EventCard from "../eventCard";
 import './event.css';
+import NavBar from "../navbar";
 
 function Events () {
     return (
         <div className="events">
+          <NavBar></NavBar>
             <div className="event-head">
                 <h1>Upcoming Events</h1>
                 <div className="event-tiles">
