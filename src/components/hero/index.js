@@ -1,7 +1,7 @@
 import React from "react";
 import './hero.css';
 import NavBar from "../navbar";
-import MediaCard from "../aboutCard";
+
 function Hero () {
     return (
         <>
