@@ -43,7 +43,9 @@ function Contact() {
                             <div className="heading">
                                 <h1>Contact Us</h1>
                             </div>
-                            <p>Have questions about Physics & Astronomy Club, or interested in joining? Please reach out — we’re happy to help.</p>
+                            <div className="description">
+                                <p>Have questions about Physics & Astronomy Club, or interested in joining? Please reach out — we’re happy to help.</p>
+                            </div>
                         </div>
                         <div className="col-md-6 col-xs-12 message-content">
                             <span className="success-message">{successMessage}</span>

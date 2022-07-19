@@ -1,7 +1,11 @@
 .contact{
-    background: url('./../../assets/stars.png'), #07072F;
-    margin-bottom: 5rem;
-  }
+  min-height: 100vh;
+  min-width: 100%;
+  background-color:rgb(7, 7, 49);
+  background-image: url("../../assets/stars.png");
+  background-repeat: repeat;
+  background-size: 100%;
+}
    
  .contact-container{
   padding-top: 150px;
@@ -9,10 +13,15 @@
 }
 
 .heading{
-    text-align: center;
-    color: #52A7EA;
-    margin-bottom: 1rem;
-  }
+  text-align: center;
+  color: #E4B6A5;
+  margin-bottom: 1rem;
+}
+.description{
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
+}
 
   .heading h1{
     font-weight: 800;
