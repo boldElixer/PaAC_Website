@@ -1,15 +1,17 @@
-import React from "react"
-import "./components/home/home.css"
-import NavBar from "./components/navbar"
-export default function Home() {
-  return <div>
-        <section className="header">
-          <NavBar></NavBar>
-      <div className="text-box">
-        <h1>Physics and Astronomy Club</h1>
-        <p>IIT Roorkee</p>
-      </div>
-    </section>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-  </div>
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
