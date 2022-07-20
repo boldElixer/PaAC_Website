@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import './contact.css'
 import { useForm } from "react-hook-form";
+import NavBar from "../navbar";
 
 function Contact() {
     const [successMessage, setSuccessMessage] = useState("")
@@ -34,6 +35,7 @@ function Contact() {
 
     return (
         <div id="contact" className="contact">
+            <NavBar></NavBar>
             <div className="contact-container">
                 <form onSubmit={handleSubmit(onSubmit)} >
                     <div className="row">
@@ -41,7 +43,9 @@ function Contact() {
                             <div className="heading">
                                 <h1>Contact Us</h1>
                             </div>
-                            <p>Have questions about Physics & Astronomy Club, or interested in joining? Please reach out — we’re happy to help.</p>
+                            <div className="description">
+                                <p>Have questions about Physics & Astronomy Club, or interested in joining? Please reach out — we’re happy to help.</p>
+                            </div>
                         </div>
                         <div className="col-md-6 col-xs-12 message-content">
                             <span className="success-message">{successMessage}</span>
