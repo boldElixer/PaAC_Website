@@ -1,3 +1,4 @@
+import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Events from "./components/events";
 import Hero from "./components/hero";

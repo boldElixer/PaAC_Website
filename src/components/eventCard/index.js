@@ -1,3 +1,4 @@
+import React from "react";
 import './eventcard.css';
 
 function EventCard({title, date, venue, description, link, linkDes}) {

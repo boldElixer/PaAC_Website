@@ -9,7 +9,7 @@ function About () {
         <section className="about">
           <NavBar></NavBar>
       <div className="about">
-
+        <MediaCard></MediaCard>
       </div>
     </section>
         </>
