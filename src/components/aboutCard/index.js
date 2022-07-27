@@ -42,7 +42,7 @@ export default function MediaCard() {
       <CardMedia
         component="img"
         height="140"
-        image src={paaclogo}
+        image src={E18311006}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
